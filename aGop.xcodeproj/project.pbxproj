@@ -15,6 +15,8 @@
 		3F5628F71E3E574500124FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5628F51E3E574500124FA2 /* LaunchScreen.storyboard */; };
 		3F5629021E3E574500124FA2 /* aGopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5629011E3E574500124FA2 /* aGopTests.swift */; };
 		3F56290D1E3E574500124FA2 /* aGopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56290C1E3E574500124FA2 /* aGopUITests.swift */; };
+		3F56291F1E3F6CE100124FA2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F56291E1E3F6CE000124FA2 /* CustomCell.swift */; };
+		3F5629211E3F890200124FA2 /* collectionCustomCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5629201E3F890200124FA2 /* collectionCustomCellCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3F5629081E3E574500124FA2 /* aGopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aGopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F56290C1E3E574500124FA2 /* aGopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aGopUITests.swift; sourceTree = "<group>"; };
 		3F56290E1E3E574500124FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F56291E1E3F6CE000124FA2 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		3F5629201E3F890200124FA2 /* collectionCustomCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = collectionCustomCellCollectionViewCell.swift; path = ../collectionCustomCellCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3F5628F51E3E574500124FA2 /* LaunchScreen.storyboard */,
 				3F5628F81E3E574500124FA2 /* Info.plist */,
 				3F5628F01E3E574500124FA2 /* aGop.xcdatamodeld */,
+				3F56291E1E3F6CE000124FA2 /* CustomCell.swift */,
+				3F5629201E3F890200124FA2 /* collectionCustomCellCollectionViewCell.swift */,
 			);
 			path = aGop;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			files = (
 				3F5628F21E3E574500124FA2 /* aGop.xcdatamodeld in Sources */,
 				3F5628EC1E3E574500124FA2 /* ViewController.swift in Sources */,
+				3F56291F1E3F6CE100124FA2 /* CustomCell.swift in Sources */,
+				3F5629211E3F890200124FA2 /* collectionCustomCellCollectionViewCell.swift in Sources */,
 				3F5628EA1E3E574500124FA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +517,7 @@
 				3F5629131E3E574500124FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F5629141E3E574500124FA2 /* Build configuration list for PBXNativeTarget "aGopTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				3F5629161E3E574500124FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F5629171E3E574500124FA2 /* Build configuration list for PBXNativeTarget "aGopUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				3F5629191E3E574500124FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
